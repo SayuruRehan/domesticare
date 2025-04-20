@@ -2,7 +2,7 @@
 //  InventoryService.swift
 //  Cappie
 //
-//  Created by Yi Xu on 8/5/23.
+//  Created by Sayuru Rehan on 2025-04-20
 //
 
 import Foundation
