@@ -1,6 +1,6 @@
 //
 //  DrugInfoComponent.swift
-//  Cappie
+//  domesticare
 //
 //  Created by Sayuru Rehan on 2025-04-20
 //

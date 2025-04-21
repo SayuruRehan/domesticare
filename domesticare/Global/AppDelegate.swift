@@ -7,6 +7,8 @@
 
 import UIKit
 import CoreData
+import BackgroundTasks
+import UserNotifications
 
 let appDelegate = UIApplication.shared.delegate as! AppDelegate
 
@@ -25,6 +27,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         window?.rootViewController = navController
         coordinator.start()
+        NotificationManager.shared.configure()
+        registerBackgroundTasks()
+        scheduleAutoDecrement()
         return true
     }
 
@@ -90,6 +95,44 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
             }
         }
+    }
+    
+
+    // Identifier must also be added to Info.plist > BGTaskSchedulerPermittedIdentifiers
+    private let autoDecrementTaskID = "com.sayururehan.domesticare.autodecrement"
+
+    private func registerBackgroundTasks() {
+        BGTaskScheduler.shared.register(forTaskWithIdentifier: autoDecrementTaskID,
+                                        using: nil) { [weak self] task in
+            self?.handleAutoDecrement(task: task as! BGAppRefreshTask)
+        }
+    }
+
+    private func scheduleAutoDecrement() {
+        let request = BGAppRefreshTaskRequest(identifier: autoDecrementTaskID)
+        request.earliestBeginDate = Date(timeIntervalSinceNow: 60 * 60 * 24) // ~24 h
+        try? BGTaskScheduler.shared.submit(request)
+    }
+    
+    private func handleAutoDecrement(task: BGAppRefreshTask) {
+        scheduleAutoDecrement()   // schedule the next one
+
+        let queue = OperationQueue()
+        queue.maxConcurrentOperationCount = 1
+
+        let op = InventoryAutoDecrementOperation()
+        task.expirationHandler = { queue.cancelAllOperations() }
+
+        op.completionBlock = {
+            let success = !op.isCancelled
+            task.setTaskCompleted(success: success)
+        }
+        queue.addOperation(op)
+    }
+    
+    // Reschedule when app goes to the background
+    func applicationDidEnterBackground(_ application: UIApplication) {
+        scheduleAutoDecrement()
     }
 
 }

@@ -55,15 +55,22 @@ class InventoryEditViewController: UIViewController {
     }
     
     private func saveDrugInventory() {
-        guard let drugInventoryImage = drugInventoryImage else {
-            let alert = UIAlertController(title: NSLocalizedString("No Photo Taken", comment: ""), message: NSLocalizedString("Please add a photo to the drug that you are adding to your inventory.", comment: ""), preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: NSLocalizedString("Okay", comment: ""), style: .cancel))
-            self.view.endEditing(false)
-            present(alert, animated: true)
-            return
-        }
-        
-        inventoryService.saveDrugInventory(drugInventory: DrugInventoryModel(uuid: UUID(), snapshot: drugInventoryImage.jpegData(compressionQuality: 1), name: drugNameTF.textFieldView.text ?? "N/A", expirationDate: .now + 365, originalQuantity: Int64(capletQuantityTF.textFieldView.text!) ?? 0, remainingQuantity: Int64(capletQuantityTF.textFieldView.text!) ?? 0))
+
+        // Get user input
+        let name  = drugNameTF.textFieldView.text?.trimmingCharacters(in: .whitespacesAndNewlines) ?? "Unnamed"
+        let qty   = Int64(capletQuantityTF.textFieldView.text ?? "") ?? 0
+
+        let model = DrugInventoryModel(
+            uuid:             UUID(),
+            snapshot:         drugInventoryImage?.pngData(),   // may be nil
+            name:             name,
+            expirationDate:   .now.addingTimeInterval(60 * 60 * 24 * 365), // 1 year ahead
+            originalQuantity: qty,
+            remainingQuantity:qty
+        )
+
+        // Persist and pop
+        inventoryService.saveDrugInventory(drugInventory: model)
         coordinator.saveInventoryEditTapped()
     }
     

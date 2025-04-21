@@ -1,6 +1,16 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "%@ is running low – only %d left." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ is running low – only %2$d left."
+          }
+        }
+      }
+    },
     "Delete" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -143,6 +153,9 @@
           }
         }
       }
+    },
+    "Time to Refill" : {
+
     },
     "We captured multiple drug names and would like to know which is the right one." : {
       "extractionState" : "manual",
