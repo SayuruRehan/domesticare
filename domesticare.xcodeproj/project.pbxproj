@@ -6,7 +6,26 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		167FC6762DB65A5A0077AFD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16DFAAFE2DB54B5A000A9FF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16DFAB052DB54B5A000A9FF6;
+			remoteInfo = domesticare;
+		};
+		167FC6852DB65A750077AFD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16DFAAFE2DB54B5A000A9FF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16DFAB052DB54B5A000A9FF6;
+			remoteInfo = domesticare;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		167FC6722DB65A590077AFD6 /* domesticareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = domesticareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		167FC67F2DB65A750077AFD6 /* domesticareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = domesticareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16DFAB062DB54B5A000A9FF6 /* domesticare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = domesticare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -21,6 +40,16 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		167FC6732DB65A5A0077AFD6 /* domesticareTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = domesticareTests;
+			sourceTree = "<group>";
+		};
+		167FC6802DB65A750077AFD6 /* domesticareUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = domesticareUITests;
+			sourceTree = "<group>";
+		};
 		16DFAB082DB54B5A000A9FF6 /* domesticare */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -32,6 +61,20 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		167FC66F2DB65A590077AFD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167FC67C2DB65A750077AFD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		16DFAB032DB54B5A000A9FF6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -46,6 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				16DFAB082DB54B5A000A9FF6 /* domesticare */,
+				167FC6732DB65A5A0077AFD6 /* domesticareTests */,
+				167FC6802DB65A750077AFD6 /* domesticareUITests */,
 				16DFAB072DB54B5A000A9FF6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				16DFAB062DB54B5A000A9FF6 /* domesticare.app */,
+				167FC6722DB65A590077AFD6 /* domesticareTests.xctest */,
+				167FC67F2DB65A750077AFD6 /* domesticareUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,6 +108,52 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		167FC6712DB65A590077AFD6 /* domesticareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 167FC6782DB65A5A0077AFD6 /* Build configuration list for PBXNativeTarget "domesticareTests" */;
+			buildPhases = (
+				167FC66E2DB65A590077AFD6 /* Sources */,
+				167FC66F2DB65A590077AFD6 /* Frameworks */,
+				167FC6702DB65A590077AFD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				167FC6772DB65A5A0077AFD6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				167FC6732DB65A5A0077AFD6 /* domesticareTests */,
+			);
+			name = domesticareTests;
+			packageProductDependencies = (
+			);
+			productName = domesticareTests;
+			productReference = 167FC6722DB65A590077AFD6 /* domesticareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		167FC67E2DB65A750077AFD6 /* domesticareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 167FC6872DB65A760077AFD6 /* Build configuration list for PBXNativeTarget "domesticareUITests" */;
+			buildPhases = (
+				167FC67B2DB65A750077AFD6 /* Sources */,
+				167FC67C2DB65A750077AFD6 /* Frameworks */,
+				167FC67D2DB65A750077AFD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				167FC6862DB65A750077AFD6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				167FC6802DB65A750077AFD6 /* domesticareUITests */,
+			);
+			name = domesticareUITests;
+			packageProductDependencies = (
+			);
+			productName = domesticareUITests;
+			productReference = 167FC67F2DB65A750077AFD6 /* domesticareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		16DFAB052DB54B5A000A9FF6 /* domesticare */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16DFAB1A2DB54B5C000A9FF6 /* Build configuration list for PBXNativeTarget "domesticare" */;
@@ -93,6 +186,14 @@
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
+					167FC6712DB65A590077AFD6 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 16DFAB052DB54B5A000A9FF6;
+					};
+					167FC67E2DB65A750077AFD6 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 16DFAB052DB54B5A000A9FF6;
+					};
 					16DFAB052DB54B5A000A9FF6 = {
 						CreatedOnToolsVersion = 16.2;
 					};
@@ -113,11 +214,27 @@
 			projectRoot = "";
 			targets = (
 				16DFAB052DB54B5A000A9FF6 /* domesticare */,
+				167FC6712DB65A590077AFD6 /* domesticareTests */,
+				167FC67E2DB65A750077AFD6 /* domesticareUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		167FC6702DB65A590077AFD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167FC67D2DB65A750077AFD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		16DFAB042DB54B5A000A9FF6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -128,6 +245,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		167FC66E2DB65A590077AFD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167FC67B2DB65A750077AFD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		16DFAB022DB54B5A000A9FF6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -137,7 +268,100 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		167FC6772DB65A5A0077AFD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16DFAB052DB54B5A000A9FF6 /* domesticare */;
+			targetProxy = 167FC6762DB65A5A0077AFD6 /* PBXContainerItemProxy */;
+		};
+		167FC6862DB65A750077AFD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16DFAB052DB54B5A000A9FF6 /* domesticare */;
+			targetProxy = 167FC6852DB65A750077AFD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		167FC6792DB65A5A0077AFD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U3D2PQ7Q22;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sayururehan.domesticareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/domesticare.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/domesticare";
+			};
+			name = Debug;
+		};
+		167FC67A2DB65A5A0077AFD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U3D2PQ7Q22;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sayururehan.domesticareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/domesticare.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/domesticare";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		167FC6882DB65A760077AFD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U3D2PQ7Q22;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sayururehan.domesticareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = domesticare;
+			};
+			name = Debug;
+		};
+		167FC6892DB65A760077AFD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U3D2PQ7Q22;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sayururehan.domesticareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = domesticare;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		16DFAB182DB54B5C000A9FF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -331,6 +555,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		167FC6782DB65A5A0077AFD6 /* Build configuration list for PBXNativeTarget "domesticareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167FC6792DB65A5A0077AFD6 /* Debug */,
+				167FC67A2DB65A5A0077AFD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		167FC6872DB65A760077AFD6 /* Build configuration list for PBXNativeTarget "domesticareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167FC6882DB65A760077AFD6 /* Debug */,
+				167FC6892DB65A760077AFD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		16DFAB012DB54B5A000A9FF6 /* Build configuration list for PBXProject "domesticare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
