@@ -17,7 +17,7 @@ final class InventoryServiceTests: XCTestCase {
     override func setUpWithError() throws {
         ctx = UnitTestHelpers.makeInMemoryContainer().viewContext
         sut = InventoryService()
-        sut.drugInventoryContext = ctx         // ← expose via `internal` for tests
+        //sut.drugInventoryContext = ctx         // ← expose via `internal` for tests
     }
 
     func testSaveAndFetch() throws {

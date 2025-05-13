@@ -3,79 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 56;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		167FC6762DB65A5A0077AFD6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 16DFAAFE2DB54B5A000A9FF6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 16DFAB052DB54B5A000A9FF6;
-			remoteInfo = domesticare;
-		};
-		167FC6852DB65A750077AFD6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 16DFAAFE2DB54B5A000A9FF6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 16DFAB052DB54B5A000A9FF6;
-			remoteInfo = domesticare;
-		};
-/* End PBXContainerItemProxy section */
+/* Begin PBXBuildFile section */
+		1A1A1A1A1A1A1A1A1A1A1A1A /* DomesticareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A1A1B /* DomesticareApp.swift */; };
+		1A1A1A1A1A1A1A1A1A1A1A1C /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A1A1D /* MainTabView.swift */; };
+		1A1A1A1A1A1A1A1A1A1A1A1E /* PrescriptionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A1A1F /* PrescriptionListView.swift */; };
+		1A1A1A1A1A1A1A1A1A1A1A20 /* PrescriptionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A1A21 /* PrescriptionDetailView.swift */; };
+		1A1A1A1A1A1A1A1A1A1A1A22 /* InventoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A1A23 /* InventoryListView.swift */; };
+		1A1A1A1A1A1A1A1A1A1A1A24 /* InventoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A1A25 /* InventoryDetailView.swift */; };
+		1A1A1A1A1A1A1A1A1A1A1A26 /* DrugPrescriptionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A1A27 /* DrugPrescriptionStore.swift */; };
+		1A1A1A1A1A1A1A1A1A1A1A28 /* InventoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A1A29 /* InventoryStore.swift */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		167FC6722DB65A590077AFD6 /* domesticareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = domesticareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		167FC67F2DB65A750077AFD6 /* domesticareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = domesticareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		16DFAB062DB54B5A000A9FF6 /* domesticare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = domesticare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A1A1A1A1A1A1A1A1A1A1A1B /* DomesticareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomesticareApp.swift; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A1A1D /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A1A1F /* PrescriptionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrescriptionListView.swift; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A1A21 /* PrescriptionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrescriptionDetailView.swift; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A1A23 /* InventoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryListView.swift; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A1A25 /* InventoryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryDetailView.swift; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A1A27 /* DrugPrescriptionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugPrescriptionStore.swift; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A1A29 /* InventoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		16DFAB622DB555BC000A9FF6 /* Exceptions for "domesticare" folder in "domesticare" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 16DFAB052DB54B5A000A9FF6 /* domesticare */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		167FC6732DB65A5A0077AFD6 /* domesticareTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = domesticareTests;
-			sourceTree = "<group>";
-		};
-		167FC6802DB65A750077AFD6 /* domesticareUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = domesticareUITests;
-			sourceTree = "<group>";
-		};
-		16DFAB082DB54B5A000A9FF6 /* domesticare */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				16DFAB622DB555BC000A9FF6 /* Exceptions for "domesticare" folder in "domesticare" target */,
-			);
-			path = domesticare;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
-
 /* Begin PBXFrameworksBuildPhase section */
-		167FC66F2DB65A590077AFD6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		167FC67C2DB65A750077AFD6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		16DFAB032DB54B5A000A9FF6 /* Frameworks */ = {
+		1A1A1A1A1A1A1A1A1A1A1A2A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -85,157 +39,127 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16DFAAFD2DB54B5A000A9FF6 = {
+		1A1A1A1A1A1A1A1A1A1A1A2B = {
 			isa = PBXGroup;
 			children = (
-				16DFAB082DB54B5A000A9FF6 /* domesticare */,
-				167FC6732DB65A5A0077AFD6 /* domesticareTests */,
-				167FC6802DB65A750077AFD6 /* domesticareUITests */,
-				16DFAB072DB54B5A000A9FF6 /* Products */,
+				1A1A1A1A1A1A1A1A1A1A1A2C /* domesticare */,
+				1A1A1A1A1A1A1A1A1A1A1A2D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		16DFAB072DB54B5A000A9FF6 /* Products */ = {
+		1A1A1A1A1A1A1A1A1A1A1A2D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				16DFAB062DB54B5A000A9FF6 /* domesticare.app */,
-				167FC6722DB65A590077AFD6 /* domesticareTests.xctest */,
-				167FC67F2DB65A750077AFD6 /* domesticareUITests.xctest */,
+				1A1A1A1A1A1A1A1A1A1A1A2E /* domesticare.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		1A1A1A1A1A1A1A1A1A1A1A2C /* domesticare */ = {
+			isa = PBXGroup;
+			children = (
+				1A1A1A1A1A1A1A1A1A1A1A1B /* DomesticareApp.swift */,
+				1A1A1A1A1A1A1A1A1A1A1A2F /* Views */,
+				1A1A1A1A1A1A1A1A1A1A1A30 /* Stores */,
+				1A1A1A1A1A1A1A1A1A1A1A31 /* Models */,
+				1A1A1A1A1A1A1A1A1A1A1A32 /* Services */,
+				1A1A1A1A1A1A1A1A1A1A1A33 /* Resources */,
+			);
+			path = domesticare;
+			sourceTree = "<group>";
+		};
+		1A1A1A1A1A1A1A1A1A1A1A2F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1A1A1A1A1A1A1A1A1A1A1A1D /* MainTabView.swift */,
+				1A1A1A1A1A1A1A1A1A1A1A34 /* Prescription */,
+				1A1A1A1A1A1A1A1A1A1A1A35 /* Inventory */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1A1A1A1A1A1A1A1A1A1A1A34 /* Prescription */ = {
+			isa = PBXGroup;
+			children = (
+				1A1A1A1A1A1A1A1A1A1A1A1F /* PrescriptionListView.swift */,
+				1A1A1A1A1A1A1A1A1A1A1A21 /* PrescriptionDetailView.swift */,
+			);
+			path = Prescription;
+			sourceTree = "<group>";
+		};
+		1A1A1A1A1A1A1A1A1A1A1A35 /* Inventory */ = {
+			isa = PBXGroup;
+			children = (
+				1A1A1A1A1A1A1A1A1A1A1A23 /* InventoryListView.swift */,
+				1A1A1A1A1A1A1A1A1A1A1A25 /* InventoryDetailView.swift */,
+			);
+			path = Inventory;
+			sourceTree = "<group>";
+		};
+		1A1A1A1A1A1A1A1A1A1A1A30 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				1A1A1A1A1A1A1A1A1A1A1A27 /* DrugPrescriptionStore.swift */,
+				1A1A1A1A1A1A1A1A1A1A1A29 /* InventoryStore.swift */,
+			);
+			path = Stores;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		167FC6712DB65A590077AFD6 /* domesticareTests */ = {
+		1A1A1A1A1A1A1A1A1A1A1A36 /* domesticare */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 167FC6782DB65A5A0077AFD6 /* Build configuration list for PBXNativeTarget "domesticareTests" */;
+			buildConfigurationList = 1A1A1A1A1A1A1A1A1A1A1A37 /* Build configuration list for PBXNativeTarget "domesticare" */;
 			buildPhases = (
-				167FC66E2DB65A590077AFD6 /* Sources */,
-				167FC66F2DB65A590077AFD6 /* Frameworks */,
-				167FC6702DB65A590077AFD6 /* Resources */,
+				1A1A1A1A1A1A1A1A1A1A1A38 /* Sources */,
+				1A1A1A1A1A1A1A1A1A1A1A2A /* Frameworks */,
+				1A1A1A1A1A1A1A1A1A1A1A39 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				167FC6772DB65A5A0077AFD6 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				167FC6732DB65A5A0077AFD6 /* domesticareTests */,
-			);
-			name = domesticareTests;
-			packageProductDependencies = (
-			);
-			productName = domesticareTests;
-			productReference = 167FC6722DB65A590077AFD6 /* domesticareTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		167FC67E2DB65A750077AFD6 /* domesticareUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 167FC6872DB65A760077AFD6 /* Build configuration list for PBXNativeTarget "domesticareUITests" */;
-			buildPhases = (
-				167FC67B2DB65A750077AFD6 /* Sources */,
-				167FC67C2DB65A750077AFD6 /* Frameworks */,
-				167FC67D2DB65A750077AFD6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				167FC6862DB65A750077AFD6 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				167FC6802DB65A750077AFD6 /* domesticareUITests */,
-			);
-			name = domesticareUITests;
-			packageProductDependencies = (
-			);
-			productName = domesticareUITests;
-			productReference = 167FC67F2DB65A750077AFD6 /* domesticareUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		16DFAB052DB54B5A000A9FF6 /* domesticare */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 16DFAB1A2DB54B5C000A9FF6 /* Build configuration list for PBXNativeTarget "domesticare" */;
-			buildPhases = (
-				16DFAB022DB54B5A000A9FF6 /* Sources */,
-				16DFAB032DB54B5A000A9FF6 /* Frameworks */,
-				16DFAB042DB54B5A000A9FF6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				16DFAB082DB54B5A000A9FF6 /* domesticare */,
 			);
 			name = domesticare;
-			packageProductDependencies = (
-			);
 			productName = domesticare;
-			productReference = 16DFAB062DB54B5A000A9FF6 /* domesticare.app */;
+			productReference = 1A1A1A1A1A1A1A1A1A1A1A2E /* domesticare.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		16DFAAFE2DB54B5A000A9FF6 /* Project object */ = {
+		1A1A1A1A1A1A1A1A1A1A1A3A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1620;
-				LastUpgradeCheck = 1620;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					167FC6712DB65A590077AFD6 = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 16DFAB052DB54B5A000A9FF6;
-					};
-					167FC67E2DB65A750077AFD6 = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 16DFAB052DB54B5A000A9FF6;
-					};
-					16DFAB052DB54B5A000A9FF6 = {
-						CreatedOnToolsVersion = 16.2;
+					1A1A1A1A1A1A1A1A1A1A1A36 = {
+						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = 16DFAB012DB54B5A000A9FF6 /* Build configuration list for PBXProject "domesticare" */;
+			buildConfigurationList = 1A1A1A1A1A1A1A1A1A1A1A3B /* Build configuration list for PBXProject "domesticare" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 16DFAAFD2DB54B5A000A9FF6;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
-			productRefGroup = 16DFAB072DB54B5A000A9FF6 /* Products */;
+			mainGroup = 1A1A1A1A1A1A1A1A1A1A1A2B;
+			productRefGroup = 1A1A1A1A1A1A1A1A1A1A1A2D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				16DFAB052DB54B5A000A9FF6 /* domesticare */,
-				167FC6712DB65A590077AFD6 /* domesticareTests */,
-				167FC67E2DB65A750077AFD6 /* domesticareUITests */,
+				1A1A1A1A1A1A1A1A1A1A1A36 /* domesticare */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		167FC6702DB65A590077AFD6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		167FC67D2DB65A750077AFD6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		16DFAB042DB54B5A000A9FF6 /* Resources */ = {
+		1A1A1A1A1A1A1A1A1A1A1A39 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -245,124 +169,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		167FC66E2DB65A590077AFD6 /* Sources */ = {
+		1A1A1A1A1A1A1A1A1A1A1A38 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		167FC67B2DB65A750077AFD6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		16DFAB022DB54B5A000A9FF6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				1A1A1A1A1A1A1A1A1A1A1A1A /* DomesticareApp.swift in Sources */,
+				1A1A1A1A1A1A1A1A1A1A1A1C /* MainTabView.swift in Sources */,
+				1A1A1A1A1A1A1A1A1A1A1A1E /* PrescriptionListView.swift in Sources */,
+				1A1A1A1A1A1A1A1A1A1A1A20 /* PrescriptionDetailView.swift in Sources */,
+				1A1A1A1A1A1A1A1A1A1A1A22 /* InventoryListView.swift in Sources */,
+				1A1A1A1A1A1A1A1A1A1A1A24 /* InventoryDetailView.swift in Sources */,
+				1A1A1A1A1A1A1A1A1A1A1A26 /* DrugPrescriptionStore.swift in Sources */,
+				1A1A1A1A1A1A1A1A1A1A1A28 /* InventoryStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		167FC6772DB65A5A0077AFD6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 16DFAB052DB54B5A000A9FF6 /* domesticare */;
-			targetProxy = 167FC6762DB65A5A0077AFD6 /* PBXContainerItemProxy */;
-		};
-		167FC6862DB65A750077AFD6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 16DFAB052DB54B5A000A9FF6 /* domesticare */;
-			targetProxy = 167FC6852DB65A750077AFD6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		167FC6792DB65A5A0077AFD6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U3D2PQ7Q22;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sayururehan.domesticareTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/domesticare.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/domesticare";
-			};
-			name = Debug;
-		};
-		167FC67A2DB65A5A0077AFD6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U3D2PQ7Q22;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sayururehan.domesticareTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/domesticare.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/domesticare";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		167FC6882DB65A760077AFD6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U3D2PQ7Q22;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sayururehan.domesticareUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = domesticare;
-			};
-			name = Debug;
-		};
-		167FC6892DB65A760077AFD6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U3D2PQ7Q22;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sayururehan.domesticareUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = domesticare;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		16DFAB182DB54B5C000A9FF6 /* Debug */ = {
+		1A1A1A1A1A1A1A1A1A1A1A3C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -414,18 +239,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		16DFAB192DB54B5C000A9FF6 /* Release */ = {
+		1A1A1A1A1A1A1A1A1A1A1A3D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -471,81 +296,66 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		16DFAB1B2DB54B5C000A9FF6 /* Debug */ = {
+		1A1A1A1A1A1A1A1A1A1A1A3E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_ENTITLEMENTS = domesticare/domesticare.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U3D2PQ7Q22;
-				ENABLE_HARDENED_RUNTIME = YES;
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = domesticare/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Domesticare;
-				INFOPLIST_KEY_NSCameraUsageDescription = "To recognize drug description";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sayururehan.domesticare;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.domesticare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		16DFAB1C2DB54B5C000A9FF6 /* Release */ = {
+		1A1A1A1A1A1A1A1A1A1A1A3F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_ENTITLEMENTS = domesticare/domesticare.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U3D2PQ7Q22;
-				ENABLE_HARDENED_RUNTIME = YES;
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = domesticare/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Domesticare;
-				INFOPLIST_KEY_NSCameraUsageDescription = "To recognize drug description";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sayururehan.domesticare;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.domesticare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -555,43 +365,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		167FC6782DB65A5A0077AFD6 /* Build configuration list for PBXNativeTarget "domesticareTests" */ = {
+		1A1A1A1A1A1A1A1A1A1A1A3B /* Build configuration list for PBXProject "domesticare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				167FC6792DB65A5A0077AFD6 /* Debug */,
-				167FC67A2DB65A5A0077AFD6 /* Release */,
+				1A1A1A1A1A1A1A1A1A1A1A3C /* Debug */,
+				1A1A1A1A1A1A1A1A1A1A1A3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		167FC6872DB65A760077AFD6 /* Build configuration list for PBXNativeTarget "domesticareUITests" */ = {
+		1A1A1A1A1A1A1A1A1A1A1A37 /* Build configuration list for PBXNativeTarget "domesticare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				167FC6882DB65A760077AFD6 /* Debug */,
-				167FC6892DB65A760077AFD6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		16DFAB012DB54B5A000A9FF6 /* Build configuration list for PBXProject "domesticare" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				16DFAB182DB54B5C000A9FF6 /* Debug */,
-				16DFAB192DB54B5C000A9FF6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		16DFAB1A2DB54B5C000A9FF6 /* Build configuration list for PBXNativeTarget "domesticare" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				16DFAB1B2DB54B5C000A9FF6 /* Debug */,
-				16DFAB1C2DB54B5C000A9FF6 /* Release */,
+				1A1A1A1A1A1A1A1A1A1A1A3E /* Debug */,
+				1A1A1A1A1A1A1A1A1A1A1A3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 16DFAAFE2DB54B5A000A9FF6 /* Project object */;
+	rootObject = 1A1A1A1A1A1A1A1A1A1A1A3A /* Project object */;
 }
