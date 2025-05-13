@@ -3,9 +3,10 @@ import CoreData
 
 class DrugPrescriptionStore: ObservableObject {
     @Published var prescriptions: [DrugPrescriptionModel] = []
-    private let service = DrugPrescriptionService()
+    private let service: DrugPrescriptionService
     
-    init() {
+    init(context: NSManagedObjectContext) {
+        self.service = DrugPrescriptionService(context: context)
         loadPrescriptions()
     }
     

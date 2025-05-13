@@ -12,8 +12,8 @@ protocol InventoryServiceProvider {
 class InventoryService: InventoryServiceProvider {
     private let context: NSManagedObjectContext
     
-    init() {
-        self.context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+    init(context: NSManagedObjectContext) {
+        self.context = context
     }
     
     func getAllDrugInventory() -> [DrugInventoryModel] {

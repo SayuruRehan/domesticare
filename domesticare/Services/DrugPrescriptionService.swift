@@ -11,8 +11,8 @@ protocol DrugPrescriptionServiceProvider {
 class DrugPrescriptionService: DrugPrescriptionServiceProvider {
     private let context: NSManagedObjectContext
     
-    init() {
-        self.context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+    init(context: NSManagedObjectContext) {
+        self.context = context
     }
     
     func getAllPrescriptions() -> [DrugPrescriptionModel] {

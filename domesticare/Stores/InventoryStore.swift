@@ -3,9 +3,10 @@ import CoreData
 
 class InventoryStore: ObservableObject {
     @Published var inventory: [DrugInventoryModel] = []
-    private let service = InventoryService()
+    private let service: InventoryService
     
-    init() {
+    init(context: NSManagedObjectContext) {
+        self.service = InventoryService(context: context)
         loadInventory()
     }
     
